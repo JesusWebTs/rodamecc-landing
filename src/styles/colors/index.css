@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../../Assets/fonts//Barlow/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../../Assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+:root {
+  --primary-color: #4b5656;
+  --primary-color--modal: #4b5656aa;
+  --secondary-color: #00c2cb;
+  --secondary-color--modal: #00c2cbaa;
+  --terceary-color: #080746;
+  --terceary-color--modal: #080746aa;
+
+  --gray-1: #d9d9d9;
+  --gray-1-modal: #d9d9d9aa;
+  --gray-2: #e2e2e2;
+  --gray-2-modal: #e2e2e2aa;
+}

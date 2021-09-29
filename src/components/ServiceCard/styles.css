@@ -1,0 +1,24 @@
+.service-card__container {
+  height: 650px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--gray-2);
+  overflow: hidden;
+}
+.service-card__container img {
+  height: auto;
+  width: 350px;
+}
+
+.service-card__container h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.service-card__container p {
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}

@@ -1,0 +1,29 @@
+:root {
+  --image: url("./assets/image/example-image.png");
+}
+
+.hero-image__container {
+  width: 100%;
+  height: 70vh;
+  background-image: var(--image);
+  background-repeat: no-repeat;
+  background-color: red;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.hero-image__container > img {
+  width: 100%;
+}
+.hero-image__container > h1 {
+  height: min-content;
+  margin-left: 120px;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 3px 3px 2px black;
+}
