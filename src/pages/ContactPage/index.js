@@ -21,7 +21,7 @@ export default function ContactPage() {
         }
       >
         <ContactInfoCard
-          addres="Av. Simon Bolivar, Calle2014, al frente de ricos shawarmas, Sta Teresa del Tuy,Edo Miranda."
+          addres="Domicilio fiscal calle Las Brisas entre Av. Falcon y Av. Ayacucho, local Nro. 0. zona casco central Santa Teresa del Tuy Miranda zona postal 1215."
           emails={["industrias.rodamecc@gmail.com"]}
           phoneNumbers={["+584141394732", "+584142853977", "+582392318555"]}
         />
