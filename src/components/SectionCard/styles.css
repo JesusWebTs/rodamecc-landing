@@ -1,5 +1,29 @@
 .section-card__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  gap: 70px;
+  height: 400px;
+}
+
+.section-card__right {
+  width: 50%;
+}
+.section-card__left {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.section-card__left>* {
+  height: 100%;
+  width: 100%;
+
+}
+
+.section-card__left img {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
 }

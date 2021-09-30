@@ -1,0 +1,28 @@
+.contact-info-card__container {
+}
+
+.contact-info-card__phones,
+.contact-info-card__emails {
+  margin: 25px auto;
+}
+.contact-info-card__adress {
+  font-size: 20px;
+}
+
+.contact-info-card__emails {
+}
+.contact-info-card__emails h3,
+.contact-info-card__phones h3 {
+  margin: 0;
+}
+.contact-info-card__emails a,
+.contact-info-card__phones a {
+  font-size: 20px;
+}
+.contact-info-card__emails div,
+.contact-info-card__phones div {
+    margin: 5px 20px;
+}
+
+.contact-info-card__phones {
+}

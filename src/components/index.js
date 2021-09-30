@@ -8,6 +8,7 @@ import RowSection from "./RowSection";
 import Banner from "./Banner";
 import SectionCard from "./SectionCard";
 import ContactInfoCard from "./ContactInfoCard";
+import Footer from "./Footer";
 
 export {
   NavBar,
@@ -20,4 +21,5 @@ export {
   Banner,
   SectionCard,
   ContactInfoCard,
+  
 };
