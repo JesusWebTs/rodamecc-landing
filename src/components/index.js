@@ -5,5 +5,19 @@ import Header from "./Header";
 import Title from "./Title";
 import ServiceCard from "./ServiceCard";
 import RowSection from "./RowSection";
+import Banner from "./Banner";
+import SectionCard from "./SectionCard";
+import ContactInfoCard from "./ContactInfoCard";
 
-export { NavBar, Logo, HeroImage, Header, Title, ServiceCard, RowSection };
+export {
+  NavBar,
+  Logo,
+  HeroImage,
+  Header,
+  Title,
+  ServiceCard,
+  RowSection,
+  Banner,
+  SectionCard,
+  ContactInfoCard,
+};

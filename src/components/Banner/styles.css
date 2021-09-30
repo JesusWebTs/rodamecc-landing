@@ -1,0 +1,12 @@
+.banner-container {
+  margin: 60px auto;
+  display: grid;
+  place-items: center;
+  background-color: var(--terceary-color);
+  padding: 35px;
+}
+.banner-container__text {
+  margin: 0;
+  color: white;
+  font-size: 50px;
+}

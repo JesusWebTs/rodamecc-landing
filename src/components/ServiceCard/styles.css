@@ -7,6 +7,7 @@
   flex-direction: column;
   background-color: var(--gray-2);
   overflow: hidden;
+  border-radius: 20px;
 }
 .service-card__container img {
   height: auto;

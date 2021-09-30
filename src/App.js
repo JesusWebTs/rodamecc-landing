@@ -1,6 +1,6 @@
 import "./App.css";
-import { Header } from "./components";
-import { ServicesPage, AboutPage } from "./pages";
+import { Banner, Header } from "./components";
+import { ServicesPage, AboutPage, ContactPage } from "./pages";
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
       <Header />
       <ServicesPage />
       <AboutPage />
+      <Banner text="0 Clientes Satisfechos." />
+      <ContactPage />
     </div>
   );
 }
