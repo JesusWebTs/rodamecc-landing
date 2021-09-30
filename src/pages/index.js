@@ -1,4 +1,4 @@
-import ServicesPage from "./Services";
-import About from "./About";
+import ServicesPage from "./ServicesPage";
+import AboutPage from "./AboutPage";
 
-export { ServicesPage, About };
+export { ServicesPage, AboutPage };
