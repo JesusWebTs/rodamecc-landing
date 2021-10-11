@@ -3,12 +3,21 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 20px;
+  background-color: var(--terceary-color);
   gap: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 .service-container__cards {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
+}
+.service__text{
+  font-size: 22px;
+}
+.service__text li{
+  margin: 40px;
 }

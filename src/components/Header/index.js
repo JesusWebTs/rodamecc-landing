@@ -2,13 +2,13 @@ import React from "react";
 import "./styles.css";
 //Components
 import { HeroImage, NavBar } from "../";
-function Header() {
+function Header({ text, src }) {
   return (
     <>
       <header className="header-container">
         <NavBar />
       </header>
-      <HeroImage />
+      <HeroImage src={src} text={text} />
     </>
   );
 }

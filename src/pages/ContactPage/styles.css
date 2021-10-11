@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
+  background-color: white;
 }
 .contact-container__cards {
   display: flex;

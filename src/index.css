@@ -6,6 +6,7 @@
 *::before,
 *::after {
   scroll-behavior: smooth;
+  scroll-margin: 5.25em;
 }
 
 *::-webkit-scrollbar-track {
@@ -56,4 +57,9 @@ p,
 a,
 span {
   font-family: "Barlow";
+}
+
+img {
+
+  max-height: 100%;
 }

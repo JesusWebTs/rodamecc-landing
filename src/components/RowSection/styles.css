@@ -1,10 +1,10 @@
 .section-row__container {
   display: flex;
-  margin: 60px auto;
   height: 70vh;
+  position: relative;
 }
 
-.section-row__container--reverse{
+.section-row__container--reverse {
   flex-direction: row-reverse;
 }
 
@@ -24,7 +24,34 @@
 .section-row__image {
   background-image: var(--image);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
-  background-position: right;
+  background-position: 45vw 10px;
+}
+
+.section-row__front {
+}
+
+.section-row__back {
+  opacity: 0;
+}
+
+.section-row__back,
+.section-row__front {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  padding: 70px 40px;
+  font-size: 1.1em;
+  transition: opacity 0.5s ease;
+}
+
+.section-row__content:hover .section-row__back {
+  opacity: 1;
+}
+.section-row__content:hover .section-row__front {
+  opacity: 0;
 }

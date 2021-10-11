@@ -1,9 +1,12 @@
 .footer-container {
   margin-top: 100px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--terceary-color);
-  padding: 35px;
+  gap: 15px;
+  padding: 15px;
+  height: 50px;
 }
 .footer-container__text {
   margin: 0;
