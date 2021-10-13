@@ -6,7 +6,7 @@ import img1 from "../../Assets/imgs/services/img-1.jpg";
 import img2 from "../../Assets/imgs/services/img-2.jpg";
 import img3 from "../../Assets/imgs/services/img-3.png";
 
-export default function ServicesPage({id}) {
+export default function ServicesPage({ id }) {
   return (
     <section className="service-container" id={id}>
       <Title text="Servicios" />
@@ -37,6 +37,11 @@ export default function ServicesPage({id}) {
                 conveyor, reductores, cadenas, bandas transportadoras, ejes,
                 engranajes, bombas, formadoras, embutidoras.
               </li>
+              <li>
+                Desarrollo de proyectos de automatizacion con PLC/SCADA/HMI.
+              </li>
+              <li>Modelado, simulación y control del proceso de producción.</li>
+              <li>Modelado 3D de los procesos industriales.</li>
             </ul>
           }
         />

@@ -154,4 +154,7 @@
   .service-card__turn-card:hover::before {
     backdrop-filter: blur(4px);
   }
+  .service-card__back *{
+    font-size: 16px;
+  }
 }

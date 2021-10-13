@@ -22,7 +22,7 @@
   font-size: 22px;
 }
 .service__text li {
-  margin: 40px;
+  margin: 15px;
 }
 
 @media only screen and (max-width: 1024px) {
