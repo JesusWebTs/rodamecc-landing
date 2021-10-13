@@ -59,6 +59,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .section-row__content{
+    width: 100vw;
+  }
   .section-row__container {
     flex-direction: column-reverse;
     justify-content: center;
