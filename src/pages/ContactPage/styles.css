@@ -12,3 +12,7 @@
   justify-content: space-evenly;
   width: 100%;
 }
+
+.contact-container__info {
+  width: min-content;
+}

@@ -21,11 +21,13 @@ export default function ContactPage({ id }) {
           ></iframe>
         }
       >
-        <ContactInfoCard
-          addres="Domicilio fiscal calle Las Brisas entre Av. Falcon y Av. Ayacucho, local Nro. 0. zona casco central Santa Teresa del Tuy Miranda zona postal 1215."
-          emails={["industrias.rodamecc@gmail.com"]}
-          phoneNumbers={["+584141394732", "+584142853977", "+582392318555"]}
-        />
+        <div className="contact-container__info">
+          <ContactInfoCard
+            addres="Domicilio fiscal calle Las Brisas entre Av. Falcon y Av. Ayacucho, local Nro. 0. zona casco central Santa Teresa del Tuy Miranda zona postal 1215."
+            emails={["industrias.rodamecc@gmail.com"]}
+            phoneNumbers={["+584141394732", "+584142853977", "+582392318555"]}
+          />
+        </div>
       </SectionCard>
     </section>
   );

@@ -8,6 +8,8 @@
   gap: 20px;
   padding-top: 20px;
   padding-bottom: 40px;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 .service-container__cards {
   display: flex;
