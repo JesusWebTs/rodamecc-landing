@@ -13,6 +13,8 @@
   width: 100%;
 }
 
-.contact-container__info {
-  width: min-content;
+@media only screen and (max-width: 1024px) {
+  .contact-container__info {
+    width: min-content;
+  }
 }

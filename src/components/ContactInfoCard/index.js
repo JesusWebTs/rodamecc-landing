@@ -19,7 +19,7 @@ function ContactInfoCard({ addres, emails = [], phoneNumbers = [] }) {
         <h3>Telfs:</h3>
         {phoneNumbers.map((phoneNumber, index) => (
           <div>
-            <a href={`mailto:${phoneNumber}`}>{phoneNumber}</a>
+            <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
           </div>
         ))}
       </div>
