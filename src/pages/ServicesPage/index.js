@@ -42,7 +42,7 @@ export default function ServicesPage({id}) {
         />
         <ServiceCard
           src={img2}
-          text="LMantenimiento en general, ofreciendo soluciones en equipos e instalaciones especificas."
+          text="Mantenimiento en general, ofreciendo soluciones en equipos e instalaciones especificas."
           component={
             <ul className="service__text">
               <li>Mantenimiento general a los sistemas de Gas industrial.</li>

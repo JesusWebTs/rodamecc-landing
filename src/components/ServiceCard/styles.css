@@ -47,7 +47,7 @@
 }
 .service-card__container:hover .service-card__turn-card .service-card__back {
   z-index: 20;
-  background-color: #00000055;
+  background-color: #00000088;
 }
 
 .service-card__front {
@@ -128,6 +128,7 @@
   }
 
   .service-card__turn-card header {
+    display: none;
     width: 600px;
     height: 100%;
     border-bottom-left-radius: 0%;
@@ -144,5 +145,13 @@
 
   .service-card__img {
     background-position: center;
+  }
+
+  .service-card__turn-card::before {
+    backdrop-filter: blur(0px);
+    transition: all var(--card-transition-time) ease;
+  }
+  .service-card__turn-card:hover::before {
+    backdrop-filter: blur(4px);
   }
 }

@@ -8,7 +8,7 @@ import heroImage from "./Assets/imgs/hero-img.gif";
 function App() {
   return (
     <div className="App">
-      <Header text={" "} src={heroImage} />
+      <Header text={"Papa de Guaiber necesito un Slogan"} src={heroImage} />
       <ServicesPage id="services" />
       <AboutPage id="about" />
       <Banner text="CLIENTES" />
