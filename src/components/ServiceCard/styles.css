@@ -1,5 +1,5 @@
 :root {
-  --card-transition-time: 0.7s;
+  --card-transition-time: 0.5s;
 }
 
 .service-card__turn-card {
@@ -13,7 +13,7 @@
   border-radius: 10px;
   position: relative;
   border-radius: 10px;
-  border: 8px solid white;
+  border: 8px solid var(--gray-1);
   cursor: pointer;
   transition: all var(--card-transition-time) cubic-bezier(0.58, 0.03, 0.7, 2);
 }

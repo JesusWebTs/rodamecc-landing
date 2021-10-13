@@ -22,3 +22,9 @@
   border-top: 4px solid var(--terceary-color);
   border-bottom: 4px solid var(--terceary-color);
 }
+
+@media only screen and (max-width: 1024px) {
+  .banner-container__text {
+    font-size: 25px;
+  }
+}

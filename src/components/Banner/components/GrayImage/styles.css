@@ -1,3 +1,8 @@
 .banner-container__img-container > img {
   filter: grayscale(1);
+  transition: all 0.5s ease;
+}
+
+.banner-container__img-container:hover > img {
+  filter: grayscale(0);
 }
