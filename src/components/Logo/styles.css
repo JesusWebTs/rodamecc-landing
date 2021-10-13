@@ -6,3 +6,16 @@
 .logo__container:hover {
   transform: scale(1.15) rotate(-2deg) translateX(10%);
 }
+
+.logo__small {
+  margin-left: 20px;
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .logo__large {
+    display: none;
+  }
+  .logo__small {
+    display: block;
+  }
+}

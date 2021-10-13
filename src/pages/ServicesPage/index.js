@@ -33,11 +33,6 @@ export default function ServicesPage({ id }) {
           component={
             <ul className="service__text">
               <li>
-                Mantenimiento mecánico a líneas de producción que incluyan
-                conveyor, reductores, cadenas, bandas transportadoras, ejes,
-                engranajes, bombas, formadoras, embutidoras.
-              </li>
-              <li>
                 Desarrollo de proyectos de automatizacion con PLC/SCADA/HMI.
               </li>
               <li>Modelado, simulación y control del proceso de producción.</li>
