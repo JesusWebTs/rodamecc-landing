@@ -1,10 +1,15 @@
 .navbar__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--gray-1);
   height: 5.25em;
+  position: relative;
 }
-.navbar__container > ol {
+.navbar__logo {
+  height: 100%;
+}
+.navbar__container ol {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -22,7 +27,7 @@
   font-size: 22px;
   transition: opacity 0.2s ease;
   position: relative;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .navbar__element:hover {
@@ -43,4 +48,116 @@
 
 .navbar__element:hover::before {
   transform: scaleX(1);
+}
+
+.navbar__toggle-menu {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar__element{
+    color: white;
+  }
+  .navbar__toggle-menu {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+  }
+  .navbar__toggle-menu:hover {
+    transform: scale(1.1);
+  }
+  .navbar__toggle-menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--gray-2);
+    box-shadow: 0px 10px 0px 0px var(--gray-2), 0px -10px 0px 0px var(--gray-2);
+  }
+
+  .navbar__container ol {
+    flex-direction: column;
+    margin: 0;
+  }
+  .navbar__elements {
+    border-bottom-left-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color--modal);
+    backdrop-filter: blur(8px);
+
+    padding: 0px;
+    width: 0%;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    transform: translateY(100%);
+  }
+
+  .navbar__elements--show {
+    animation-name: showMenu;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-duration: 0.7s;
+  }
+  .navbar__elements--show-not {
+    animation-name: showMenu-not;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+  }
+}
+
+@keyframes showMenu {
+  0% {
+    padding: 0px;
+    width: 0%;
+    height: 20px;
+  }
+  50% {
+    padding: 40px;
+    width: 50%;
+    height: 20px;
+  }
+  100% {
+    padding: 40px;
+    width: 50%;
+    height: 300px;
+  }
+}
+@keyframes showMenu-not {
+  100% {
+    padding: 0px;
+    width: 0%;
+    height: 20px;
+  }
+  50% {
+    padding: 40px;
+    width: 50%;
+    height: 20px;
+  }
+  0% {
+    padding: 40px;
+    width: 50%;
+    height: 300px;
+  }
 }

@@ -9,7 +9,7 @@ function AboutPage({ id }) {
       title="Nosotros"
       src={img1}
       front={
-        <>
+        <div className="about__front">
           <p>
             Somos una empresa con mas de 10 años en el mercado, brindando
             calidad y satisfacción a nuestros clientes, especializada en el área
@@ -28,10 +28,10 @@ function AboutPage({ id }) {
             sistemas de gas industrial para la industrias de producción masiva
             de alimentos, civil, cementera y petrolera.
           </p>
-        </>
+        </div>
       }
       back={
-        <>
+        <div  className="about__back">
           <h3>Misión</h3>
           <p>
             Continuar ofreciendo servicios especializado de alta gama que estén
@@ -47,7 +47,7 @@ function AboutPage({ id }) {
             crecimiento de nuestros clientes, empeados y que contribuya al
             desarrollo de país.
           </p>
-        </>
+        </div>
       }
     />
   );

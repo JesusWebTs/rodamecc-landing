@@ -16,28 +16,30 @@ function ServiceCard({
   ),
 }) {
   return (
-    <article
-      className="service-card__container"
-      style={{
-        backgroundImage: `url(${src})`,
-      }}
-    >
-      <div className="service-card__front">
-        <header>
-          <div
-            className="service-card__img"
-            style={{
-              backgroundImage: `url(${src})`,
-            }}
-          />
-        </header>
-        <div className="service-card__bottom">
-          <div className="service-card__text">
-            <p>{text}</p>
+    <article className="service-card__container">
+      <div
+        className="service-card__turn-card"
+        style={{
+          backgroundImage: `url(${src})`,
+        }}
+      >
+        <div className="service-card__front">
+          <header>
+            <div
+              className="service-card__img"
+              style={{
+                backgroundImage: `url(${src})`,
+              }}
+            />
+          </header>
+          <div className="service-card__bottom">
+            <div className="service-card__text">
+              <p>{text}</p>
+            </div>
           </div>
         </div>
+        <div className="service-card__back">{component}</div>
       </div>
-      <div className="service-card__back">{component}</div>
     </article>
   );
 }

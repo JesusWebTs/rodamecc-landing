@@ -4,9 +4,9 @@ import logo from "../../Assets/imgs/logos/Large-Transparent.svg";
 
 function Logo() {
   return (
-    <div className="logo__container">
+    <a href="https://rodamecc.vercel.app" className="logo__container">
       <img src={logo} alt="Logo" />
-    </div>
+    </a>
   );
 }
 

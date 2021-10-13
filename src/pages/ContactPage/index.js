@@ -2,10 +2,11 @@ import React from "react";
 import "./styles.css";
 import { Title, SectionCard, ContactInfoCard } from "../../components";
 
-export default function ContactPage({id}) {
+export default function ContactPage({ id }) {
   return (
     <section className="contact-container" id={id}>
       <Title text="Contacto" />
+
       <SectionCard
         googleDir={
           <iframe

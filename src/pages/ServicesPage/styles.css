@@ -3,9 +3,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--terceary-color);
+  /* background-color: var(--terceary-color); */
+  background-color: var(--gray-1);
   gap: 20px;
-  color: white;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -15,9 +15,18 @@
   justify-content: space-evenly;
   width: 100%;
 }
-.service__text{
+.service__text {
   font-size: 22px;
 }
-.service__text li{
+.service__text li {
   margin: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-container__cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 }
